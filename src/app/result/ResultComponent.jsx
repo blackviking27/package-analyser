@@ -90,8 +90,8 @@ const ResultComponent = ({ title, result }) => {
       </div>
       <div>
         <div className="grid grid-cols-1 gap-4">
-          {packages.map((data) => (
-            <div className="flex col-span-1">
+          {packages.map((data, idx) => (
+            <div key={idx} className="flex col-span-1">
               <div className="p-4 w-full">
                 <div className="border border-gray-200 p-6 rounded-lg md:flex md:justify-between">
                   <div>

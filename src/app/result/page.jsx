@@ -40,9 +40,9 @@ const Result = () => {
     }
   };
 
-  useEffect(() => {
-    parseJsonData(context);
-  }, []);
+  // useEffect(() => {
+  parseJsonData(context);
+  // }, []);
 
   return (
     <div className="px-16 md:px-32">
